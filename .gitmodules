@@ -1,6 +1,4 @@
-[submodule "thirdparty/grpc"]
-	path = thirdparty/grpc
-	url = https://github.com/grpc/grpc
+
 
 [submodule "thirdparty/googletest"]
 	path = thirdparty/googletest
