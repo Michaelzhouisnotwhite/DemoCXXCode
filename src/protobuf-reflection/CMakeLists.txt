@@ -1,0 +1,10 @@
+project(protobuf-reflection)
+find_package(absl CONFIG REQUIRED)
+find_package(fmt CONFIG REQUIRED)
+my_proto_gen(test_proto PROTO ./protos/test_msg.proto)
+add_executable(${PROJECT_NAME} main.cpp)
+set(PROTO_ROOT_PATH ${PROJECT_SOURCE_DIR}/protos)
+configure_file(config.h.in config.h @ONLY)
+target_link_libraries(${PROJECT_NAME} test_proto fmt::fmt)
+
+set_target_properties(${PROJECT_NAME} PROPERTIES CMAKE_CXX_STANDARD 14)

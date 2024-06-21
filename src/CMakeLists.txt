@@ -1,0 +1,2 @@
+
+add_subdirectory(protobuf-reflection EXCLUDE_FROM_ALL)

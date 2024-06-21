@@ -1,0 +1,4 @@
+#ifndef CONFIG_H_1234545
+#define CONFIG_H_1234545
+#define PROTO_ROOT_PATH "@PROTO_ROOT_PATH@"
+#endif

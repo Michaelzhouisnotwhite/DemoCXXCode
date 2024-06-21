@@ -1,0 +1,22 @@
+[submodule "thirdparty/grpc"]
+	path = thirdparty/grpc
+	url = https://github.com/grpc/grpc
+
+[submodule "thirdparty/googletest"]
+	path = thirdparty/googletest
+	url = https://github.com/google/googletest.git
+[submodule "thirdparty/protobuf"]
+	path = thirdparty/protobuf
+	url = https://github.com/protocolbuffers/protobuf.git
+[submodule "thirdparty/benchmark"]
+	path = thirdparty/benchmark
+	url = https://github.com/google/benchmark
+[submodule "thirdparty/abseil-cpp"]
+	path = thirdparty/abseil-cpp
+	url = https://github.com/abseil/abseil-cpp.git
+[submodule "thirdparty/ModernExternalProject.cmake"]
+	path = thirdparty/ModernExternalProject.cmake
+	url = https://github.com/Michaelzhouisnotwhite/ModernExternalProject.cmake.git
+[submodule "thirdparty/fmt"]
+	path = thirdparty/fmt
+	url = https://github.com/fmtlib/fmt.git
