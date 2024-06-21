@@ -37,4 +37,3 @@
 # cxx build
 *build*
 
-thirdparty/grpc/**
